@@ -13,5 +13,5 @@ baseline: spec
 			baseline: 'OldCompiler' with: [
 				spec repository: 'github://pharo-project/OldCompiler'];
 			baseline: 'Espell' with: [ spec
-				repository: 'github://carolahp/espell:v2.0/src'].
+				repository: 'github://carolahp/espell:v2.2/src'].
 	]
