@@ -23,5 +23,5 @@ deploy:
   file: "bootstrapImage.zip"
   skip_cleanup: true
   on:
-    repo: guillep/PharoBootstrap
+    repo: carolahp/PharoBootstrap
     tags: true
