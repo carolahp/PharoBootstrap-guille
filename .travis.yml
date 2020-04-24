@@ -12,7 +12,7 @@ addons:
     - libfreetype6:i386
 
 script:
- - "wget -O - get.pharo.org/70+vm | bash"
+ - "wget -O - get.pharo.org/${PHARO_VERSION}+vm | bash"
  - "./scripts/install-packages.sh"
  - "zip -r bootstrapImage Pharo.image Pharo.changes Pharo7.0*.sources"
  
